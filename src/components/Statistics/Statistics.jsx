@@ -9,7 +9,7 @@ export function Statistics ({titel, data}) {
 
 
         <ul className={clsx(statCss['stat-list'])}>
-            { data.map(el => (
+            {data.map(el => (
                 <li key={el.id} className={clsx(statCss.item)}>
                     <span className={clsx(statCss.label)}>{el.label}</span>
                     <span className={clsx(statCss.percentage)}>{el.percentage}</span>
