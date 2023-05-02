@@ -4,7 +4,7 @@ import friendsCss from './FriendList.module.css';
 
 export function FriendListItem ({friend}) {
     return (
-            <li key={friend.id} className={friendsCss.item}>
+            <li className={friendsCss.item}>
                 <span className={clsx(
                     friendsCss.status, 
                     friend.isOnline ? friendsCss.online : friendsCss.offline)}>
