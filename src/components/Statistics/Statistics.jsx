@@ -1,4 +1,4 @@
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 import clsx from 'clsx';
 import statCss from './Statistics.module.css';
 
@@ -18,4 +18,9 @@ export function Statistics ({titel, data}) {
         </ul>
     </section>
 </>
+}
+
+Statistics.propTypes = {
+    titel: PropTypes.string,
+    data: PropTypes.array
 }
