@@ -1,0 +1,28 @@
+.transaction-history {
+    display: block;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    max-width: 300px;
+
+    background-color: beige;
+}
+/* thead {
+    width: 100%;
+} */
+
+thead  th {
+
+    width: 40%;
+
+    background-color: aqua;
+
+    text-align: center;
+}
+
+tbody td {
+    width: 40%;
+
+    text-align: center;
+}
